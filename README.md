@@ -9,7 +9,7 @@ JavaScript: Gerenciamento das interações e lógica do chatbot.
 🛠️ Como Usar
 Clone o Repositório:
 Copiar código
-git clone https://github.com/Teles2003/Chatbox-atendenterVirtual---JS.git
+git clone https://github.com/Teles2003/Chatbox-atendenteVirtual---JS.git
 Abra o arquivo index.html no navegador para ver o chatbox em ação.
 
 📂 Estrutura
