@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendente Virtual com Opções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ícone do chatbox flutuante -->
+    <div class="chatbox__icon" id="chatboxIcon" onclick="toggleChat()">
+        💬 <!-- Emoji de chat, pode ser trocado por um ícone -->
+    </div>
+
+    <!-- Chatbox inicialmente escondido -->
+    <div class="chatbox" id="chatbox" style="display: none;">
+        <div class="chatbox__header">
+            <h2>Atendente Virtual</h2>
+            <button class="close-btn" onclick="toggleChat()">X</button> <!-- Botão de fechar -->
+        </div>
+        <div class="chatbox__body" id="chatboxBody">
+            <div class="chatbox__message chatbox__message--bot" id="botMessage">
+                Olá! Como posso te ajudar?
+            </div>
+        </div>
+        <div class="chatbox__footer" id="chatboxFooter">
+            <!-- O rodapé será usado para exibir opções de resposta -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
