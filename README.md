@@ -15,7 +15,9 @@ Abra o arquivo index.html no navegador para ver o chatbox em ação.
 📂 Estrutura
 Copiar código
 ├── index.html    # Estrutura do chatbox
+
 ├── styles.css    # Estilização do chatbox
+
 └── script.js     # Lógica de interação
 
 ✨ Personalização
