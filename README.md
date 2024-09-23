@@ -1,7 +1,7 @@
 # Atendente Virtual com Opções de Respostas - Chatbox
 Este projeto é uma implementação de um Chatbox de atendente virtual, onde os usuários podem interagir clicando em opções de respostas predefinidas. As escolhas do usuário são exibidas no chatbox e o chatbot responde com informações programadas.
 
-📋 Funcionalidades
+ 📋 ## Funcionalidades
 Exibe um ícone de chat flutuante que, ao ser clicado, abre um chatbox.
 O bot faz perguntas e oferece opções de respostas para o usuário.
 As perguntas selecionadas pelo usuário aparecem como mensagens no chatbox.
